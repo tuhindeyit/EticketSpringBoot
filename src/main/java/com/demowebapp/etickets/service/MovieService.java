@@ -8,6 +8,6 @@ import com.demowebapp.etickets.model.MoviesModel;
  */
 public interface MovieService {
 
-	MoviesModel saveObjectCommData(MoviesModel request);
+	void saveObjectMovieData(MoviesModel request);
 
 }
