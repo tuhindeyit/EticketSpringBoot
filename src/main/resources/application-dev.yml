@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://(localdb)\\MSSQLLocalDB;databaseName=etickets
+    ##username: birlailmsadmin
+    ##password: Bir@m$r12#km
+    authentication: windows_auth
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServer2012Dialect
+     
+    show-sql: true 
+ 
